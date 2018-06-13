@@ -1,0 +1,79 @@
+.chat
+{
+    font-size: 150%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    position: relative;
+    height: auto; 
+    min-height: 50px;
+    display: block;
+}
+
+.chat li small
+{
+    font-size: 9px;
+}
+
+.chat li.left .chat-body
+{
+    position: absolute;
+    left: 55px;
+}
+
+.chat li.right .chat-body
+{
+    position: absolute;
+    right: 55px;
+    text-align: right;
+}
+
+.chat li.left .header strong
+{
+    margin-right: 20px;
+}
+
+.chat li.right .header strong
+{
+    margin-left: 20px;
+}
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    word-wrap: break-word;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.chat li.right p
+{
+    text-align: right;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel {
+    margin-bottom: 0;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.foiVistoChat {
+    font-size: 12px;
+}

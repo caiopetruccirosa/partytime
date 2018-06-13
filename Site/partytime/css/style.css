@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	overflow: hidden;
+}
+
+body {
+	background: url(../imagens/fundo.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: stretch;
+	background-size: cover;
+}
+
+.center-div {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.alerta-erro {
+	position: absolute;
+	top: 15%;
+	width: 25%;
+	left: 37.5%;
+	z-index: 9999;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.alerta-sucesso {
+	position: absolute;
+	top: 15%;
+	width: 20%;
+	left: 40%;
+	z-index: 9999;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#divPrincipal {
+	position: absolute;
+	width: 510px;
+	height: 390px;
+}
+
+#divForm {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border: none;
+}
+
+#frmLogin, #frmCadastro, #frmMudarSenha {
+	display: none;
+	width: 100%;
+}
+
+#btnLogar, #btnCadastrar, #btnMudarSenha {
+	width: 100%;
+}
+
+button {
+	outline: none;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+}
